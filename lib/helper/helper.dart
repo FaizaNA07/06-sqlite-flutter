@@ -19,7 +19,7 @@ class SQLHelper {
   static Future<sql.Database> db() async {
     //create, read database
     return sql.openDatabase(
-      'aulia.db',
+      'faiza.db',
       version: 1,
       onCreate: (sql.Database database, int version) async {
         await createTables(database);
