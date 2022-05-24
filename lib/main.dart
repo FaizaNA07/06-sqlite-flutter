@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tambahkan Item => Faiza Nur A. | 2031710068',
       theme: ThemeData(
-        primarySwatch: Colors.orange
+        primarySwatch: Colors.red
       ),
       home: Home(),
     );
